@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>joanne</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/details.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+    <div class="container">
+
+        <section id="art">
+            <h2 class="section-title">game design + art</h2>
+            <div class="projects-grid" id="art-grid"></div>
+        </section>
+
+    </div>
+
+    <!-- project details -->
+    <div class="details" id="details" hidden>
+        <div class="details__backdrop" data-details-dismiss="true"></div>
+        <div class="details__panel" role="dialog" aria-labelledby="detailsTitle" aria-modal="true">
+            <div class="details__header">
+                <h2 class="details__title" id="detailsTitle">Project Title</h2>
+                <button type="button" class="details__close" data-details-dismiss="true" aria-label="Close details">X</button>
+            </div>
+            <div class="details__body" id="detailsBody"></div>
+        </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/details.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/nav.js"></script>
+</body>
+</html>
