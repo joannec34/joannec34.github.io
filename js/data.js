@@ -59,8 +59,8 @@ const PROJECTS = {
             { src: 'images/dj_cover.png', alt: 'DJ Da Capo Cover Art', fit: 'cover' },
             { src: 'images/dj_idle.gif', alt: 'DJ Da Capo Idle Animation', fit: 'cover' },
             { src: 'images/dj_walk.gif', alt: 'DJ Da Capo Walk Animation', fit: 'cover' },
-            { src: 'images/dj_jump.png', alt: 'DJ Da Capo Jump Animation', fit: 'cover' },
-            { src: 'images/dj_jam.png', alt: 'DJ Da Capo Jam Animation', fit: 'cover' }
+            { src: 'images/dj_jump.gif', alt: 'DJ Da Capo Jump Animation', fit: 'cover' },
+            { src: 'images/dj_jam.gif', alt: 'DJ Da Capo Jam Animation', fit: 'cover' }
         ],
         sections: [{
             heading: 'DJ Da Capo',
