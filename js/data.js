@@ -15,7 +15,18 @@ const PROJECTS = {
         sections: [{
             heading: 'V2 Dual Daughter QFN Board',
             body: 'In progress...\nA board housing the team’s Analog (SAR ADC) and Digital 2025 tapeouts (QFN package), allowing for communication between the two.\nIncludes a multi-stage amplifier and fully differential amplifier for analog input signals.',
-            bullets: ['Tools: Altium, LTspice, Soldering',]
+            bullets: ['Link: https://github.com/joannec34/pcbs', 'Skills: Altium, LTspice, Soldering',]
+        }]
+    },
+    'hw_tiny': {
+        title: 'TEENY TPU TINY TAPEOUT SKY26a',
+        images: [
+            { src: 'images/teenytpu.png', alt: 'Teeny TPU Tiny Tapeout SKY26a', fit: 'cover' }
+        ],
+        sections: [{
+            heading: 'Teeny TPU Tiny Tapeout SKY26a',
+            body: '2x2 INT8 systolic array TPU with SPI memory interface.',
+            bullets: ['Link: https://github.com/joannec34/teenytpu', 'Skills: Verilog, Git, OpenROAD, HLS'],
         }]
     },
     'hw_stm32': {
@@ -28,7 +39,7 @@ const PROJECTS = {
         sections: [{
             heading: 'STM32 Board',
             body: 'Completed (December 2024).\nInitial onboarding board for learning PCB design.\nFollowed a tutorial by Phil’s Lab to create a functional STM32-based board.',
-            bullets: ['Tools: KiCad']
+            bullets: ['Skills: KiCad']
         }]
     },
     'art_crush': {
