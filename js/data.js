@@ -8,9 +8,9 @@ const PROJECTS = {
     'hw_dual': {
         title: 'DUAL DAUGHTER BOARD',
         images: [
-            { src: 'images/dual_daughter2.png', alt: 'Dual Daughter QFN Board Front', fit: 'cover' },
-            { src: 'images/dual_daughter_soldered.jpg', alt: 'Soldered Board', fit: 'cover' },
-            { src: 'images/dual_daughter2_schematic.png', alt: 'Schematic', fit: 'cover' }
+            { src: 'images/hardware/dual.png', alt: 'Dual Daughter QFN Board', fit: 'cover' },
+            { src: 'images/hardware/dual_real.jpg', alt: 'Soldered Board', fit: 'cover' },
+            { src: 'images/hardware/dual_sch.png', alt: 'Schematic', fit: 'cover' }
         ],
         sections: [{
             heading: 'V2 Dual Daughter QFN Board',
@@ -32,9 +32,9 @@ const PROJECTS = {
     'hw_stm32': {
         title: 'STM32 BOARD',
         images: [
-            { src: 'images/kicad_tutorial_cropped.png', alt: 'KiCad Tutorial Layout', fit: 'cover' },
-            { src: 'images/kicad_pcb_cropped.png', alt: 'STM32 Board PCB', fit: 'cover' },
-            { src: 'images/kicad_schematic_cropped.png', alt: 'STM32 Schematic', fit: 'cover' }
+            { src: 'images/hardware/kicad.png', alt: 'KiCad Tutorial Layout', fit: 'cover' },
+            { src: 'images/hardware/kicad_2d.png', alt: 'STM32 Board PCB', fit: 'cover' },
+            { src: 'images/hardware/kicad_sch.png', alt: 'STM32 Schematic', fit: 'cover' }
         ],
         sections: [{
             heading: 'STM32 Board',
@@ -44,7 +44,7 @@ const PROJECTS = {
     },
     'art_crush': {
         title: 'CRUSH THE HERO',
-        images: [{ src: 'images/cth_card.png', alt: 'Crush the Hero Card Art', fit: 'cover' }],
+        images: [{ src: 'images/art/crush_card.png', alt: 'Crush the Hero Card Art', fit: 'cover' }],
         sections: [{
             heading: 'Crush the Hero',
             body: 'Ongoing.\nCurrently in development (Coming soon!).'
@@ -53,10 +53,10 @@ const PROJECTS = {
     'art_duke': {
         title: 'DUKE VS. THE GANG',
         images: [
-            { src: 'images/mirage_idle.gif', alt: 'Mirage Idle Animation', fit: 'cover' },
-            { src: 'images/mirage_attack.gif', alt: 'Mirage Attack Animation', fit: 'cover' },
-            { src: 'images/mirage_poof.gif', alt: 'Mirage Poof Animation', fit: 'cover' },
-            { src: 'images/dvg_props.png', alt: 'Duke vs. The Gang Environmental Assets', fit: 'cover' }
+            { src: 'images/art/mirage_idle.gif', alt: 'Mirage Idle Animation', fit: 'cover' },
+            { src: 'images/art/mirage_attack.gif', alt: 'Mirage Attack Animation', fit: 'cover' },
+            { src: 'images/art/mirage_poof.gif', alt: 'Mirage Poof Animation', fit: 'cover' },
+            { src: 'images/art/dvg_props.png', alt: 'Duke vs. The Gang Environmental Assets', fit: 'cover' }
         ],
         sections: [{
             heading: 'Duke vs. the Gang',
@@ -67,11 +67,11 @@ const PROJECTS = {
     'art_dj': {
         title: 'DJ DA CAPO',
         images: [
-            { src: 'images/dj_cover.png', alt: 'DJ Da Capo Cover Art', fit: 'cover' },
-            { src: 'images/dj_idle.gif', alt: 'DJ Da Capo Idle Animation', fit: 'cover' },
-            { src: 'images/dj_walk.gif', alt: 'DJ Da Capo Walk Animation', fit: 'cover' },
-            { src: 'images/dj_jump.gif', alt: 'DJ Da Capo Jump Animation', fit: 'cover' },
-            { src: 'images/dj_jam.gif', alt: 'DJ Da Capo Jam Animation', fit: 'cover' }
+            { src: 'images/art/dj_cover.png', alt: 'DJ Da Capo Cover Art', fit: 'cover' },
+            { src: 'images/art/dj_idle.gif', alt: 'DJ Da Capo Idle Animation', fit: 'cover' },
+            { src: 'images/art/dj_walk.gif', alt: 'DJ Da Capo Walk Animation', fit: 'cover' },
+            { src: 'images/art/dj_jump.gif', alt: 'DJ Da Capo Jump Animation', fit: 'cover' },
+            { src: 'images/art/dj_jam.gif', alt: 'DJ Da Capo Jam Animation', fit: 'cover' }
         ],
         sections: [{
             heading: 'DJ Da Capo',

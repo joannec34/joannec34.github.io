@@ -15,11 +15,11 @@
 
 /* dark mode*/
 [data-theme="dark"] {
-  --bg: #1a1a2e;
-  --bg-grid: #222240;
-  --color: #b2d3ac;
-  --card-bg: #16213e;
-  --accent: #2D4A2D;
+  --bg: #F2F0EB;
+  --bg-grid: #E6E4DD;
+  --color: #2D4A2D;
+  --card-bg: #FFFFFF;
+  --accent: #b2d3ac;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
