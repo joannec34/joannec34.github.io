@@ -171,7 +171,6 @@ h1, h2, h3 {
   grid-column: 2;
   grid-row: 1;
   justify-self: end;
-  padding-right: 2vw;
   transition: transform 0.4s cubic-bezier(.175,.885,.32,1.275);
 }
 .home-name {
@@ -188,7 +187,6 @@ h1, h2, h3 {
   grid-column: 1;
   grid-row: 3;
   justify-self: start;
-  padding-left: 2vw;
   transition: transform 0.4s cubic-bezier(.175,.885,.32,1.275);
 }
 
@@ -200,11 +198,11 @@ h1, h2, h3 {
   transition: transform 0.4s cubic-bezier(.175,.885,.32,1.275);
 }
 .home-asset-hw {
-  width: clamp(180px, 30vw, 340px);
+  width: clamp(180px, 32vw, 340px);
   transform: rotate(6deg);
 }
 .home-asset-art {
-  width: clamp(180px, 35vw, 340px);
+  width: clamp(180px, 40vw, 340px);
   transform: rotate(-4deg);
 }
 
@@ -221,7 +219,7 @@ h1, h2, h3 {
 /* stars */
 .home-star {
   position: absolute;
-  width: clamp(100px, 20vw, 180px);
+  width: clamp(100px, 10vw, 180px);
   height: auto;
   opacity: 0.9;
   z-index: 5;
@@ -229,8 +227,8 @@ h1, h2, h3 {
   animation: spin 12s linear infinite;
 }
 .home-star-1 {
-  bottom: 20%;
-  right: 10%;
+  bottom: 30%;
+  right: 0%;
 }
 @keyframes spin {
   0%   { transform: rotate(-15deg); }
@@ -247,23 +245,23 @@ h1, h2, h3 {
   pointer-events: none;
 }
 .home-decor-cable {
-  width: clamp(150px, 22vw, 300px);
+  width: clamp(150px, 80vw, 300px);
   top: 2%;
-  left: -2%;
+  left: -20%;
   transform: rotate(-3deg);
   transform-origin: top left;
 }
 .home-decor-parts {
-  width: clamp(80px, 15vw, 140px);
+  width: clamp(80px, 10vw, 140px);
   top: 5%;
-  left: 40%;
+  left: 30%;
   transform: rotate(5deg);
   animation: spin 12s linear infinite;
 }
 .home-decor-pen {
-  width: clamp(80px, 15vw, 140px);
+  width: clamp(80px, 10vw, 140px);
   bottom: 8%;
-  left: 40%;
+  left: 50%;
   transform: rotate(-10deg);
   animation: spin 12s linear infinite;
 }
