@@ -55,14 +55,6 @@ body {
   gap: 60px;
 }
 
-/* homepage overrides */
-body.home-page {
-  padding: 10px 0 0;
-}
-body.home-page .container {
-  gap: 0;
-}
-
 /* links */
 a {
   color: var(--color);
@@ -228,7 +220,7 @@ h1, h2, h3 {
 }
 .home-star-1 {
   bottom: 30%;
-  right: 0%;
+  right: 5%;
 }
 @keyframes spin {
   0%   { transform: rotate(-15deg); }
@@ -247,7 +239,7 @@ h1, h2, h3 {
 .home-decor-cable {
   width: clamp(150px, 80vw, 300px);
   top: 2%;
-  left: -20%;
+  left: -5%;
   transform: rotate(-3deg);
   transform-origin: top left;
 }
