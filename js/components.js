@@ -7,7 +7,7 @@ function renderSection(s) {
         html += s.body.split(/\n+/).filter((p) => p.trim()).map((p) => `<p>${escapeHtml(p)}</p>`).join('');
     }
     if (s.bullets && s.bullets.length > 0) {
-        html += '<ul class="details__bullet-list">' + s.bullets.map((item) => `<li>${escapeHtml(item)}</li>`).join('') + '</ul>';
+        html += '<ul class="details-bullet-list">' + s.bullets.map((item) => `<li>${escapeHtml(item)}</li>`).join('') + '</ul>';
     }
     return html;
 }
@@ -17,12 +17,12 @@ function renderImageBlock(data) {
     if (data.images && data.images.length > 0) {
         data.images.forEach((img, i) => {
             const alt = img.alt || `Project image ${i + 1}`;
-            figures.push(`<figure class="details__figure"><img class="details__image" src="${escapeAttr(img.src)}" alt="${escapeHtml(alt)}" loading="lazy"></figure>`);
+            figures.push(`<figure class="details-figure"><img class="details-image" src="${escapeAttr(img.src)}" alt="${escapeHtml(alt)}" loading="lazy"></figure>`);
         });
     }
 
     if (figures.length > 0) {
-        return `<div class="details__media">${figures.join('')}</div>`;
+        return `<div class="details-media">${figures.join('')}</div>`;
     }
     return '';
 }
@@ -30,8 +30,8 @@ function renderImageBlock(data) {
 function createCard(id, data, category) {
     const imgSrc = data.images && data.images[0] ? data.images[0].src : '';
     const imgHtml = imgSrc 
-        ? `<img class="card__image" src="${escapeAttr(imgSrc)}" alt="${escapeAttr(data.title)}" loading="lazy">` 
-        : `<div class="card__image" style="display:flex;align-items:center;justify-content:center;color:#888;font-family:var(--font-pixel);">No Image</div>`;
+        ? `<img class="card-image" src="${escapeAttr(imgSrc)}" alt="${escapeAttr(data.title)}" loading="lazy">` 
+        : `<div class="card-image" style="display:flex;align-items:center;justify-content:center;color:#888;font-family:var(--font-pixel);">No Image</div>`;
     
     const card = document.createElement('div');
     card.className = `card ${category}`;

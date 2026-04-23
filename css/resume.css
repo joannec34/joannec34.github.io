@@ -46,7 +46,7 @@
     margin-bottom: 0;
 }
 
-.resume-entry__header {
+.resume-entry-header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -54,19 +54,19 @@
     margin-bottom: 4px;
 }
 
-.resume-entry__title {
+.resume-entry-title {
     font-weight: bold;
     font-size: 1rem;
 }
 
-.resume-entry__date {
+.resume-entry-date {
     color: var(--color);
     opacity: 0.7;
     font-size: 0.9rem;
     white-space: nowrap;
 }
 
-.resume-entry__subtitle {
+.resume-entry-subtitle {
     font-style: italic;
     color: var(--color);
     opacity: 0.7;
@@ -97,20 +97,20 @@
     align-items: baseline;
 }
 
-.resume-skill-row__label {
+.resume-skill-row-label {
     font-weight: bold;
     white-space: nowrap;
     font-size: 0.95rem;
 }
 
-.resume-skill-row__content {
+.resume-skill-row-content {
     font-size: 0.95rem;
     color: var(--color);
     opacity: 0.7;
 }
 
 @media (max-width: 600px) {
-    .resume-entry__header {
+    .resume-entry-header {
         flex-direction: column;
     }
 

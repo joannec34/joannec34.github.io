@@ -13,18 +13,18 @@
     display: none !important;
 }
 
-.details__backdrop {
+.details-backdrop {
     position: absolute;
     inset: 0;
     background: rgba(242, 240, 235, 0.85);
     backdrop-filter: blur(4px);
 }
 
-[data-theme="dark"] .details__backdrop {
+[data-theme="dark"] .details-backdrop {
     background: rgba(26, 26, 46, 0.85);
 }
 
-.details__panel {
+.details-panel {
     position: relative;
     z-index: 1;
     width: min(700px, 100%);
@@ -38,7 +38,7 @@
     overflow: hidden;
 }
 
-.details__header {
+.details-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,14 +47,14 @@
     background: var(--bg);
 }
 
-.details__title {
+.details-title {
     font-family: var(--font-header);
     font-size: 2rem;
     margin: 0;
     color: var(--color);
 }
 
-.details__close {
+.details-close {
     background: none;
     border: 2px solid var(--color);
     border-radius: 50%;
@@ -70,18 +70,18 @@
     transition: background 0.2s;
 }
 
-.details__close:hover {
+.details-close:hover {
     background: var(--accent);
 }
 
-.details__body {
+.details-body {
     padding: 32px;
     overflow-y: auto;
     font-size: 1rem;
     line-height: 1.8;
 }
 
-.details__body h3 {
+.details-body h3 {
     font-family: var(--font-header);
     font-size: 1.3rem;
     margin: 24px 0 12px;
@@ -92,30 +92,30 @@
     transform: rotate(-1deg);
 }
 
-.details__body h3:first-child {
+.details-body h3:first-child {
     margin-top: 0;
 }
 
-.details__body p {
+.details-body p {
     margin: 0 0 16px;
 }
 
-.details__bullet-list {
+.details-bullet-list {
     margin: 0 0 20px;
     padding-left: 24px;
 }
 
-.details__media {
+.details-media {
     margin-top: 32px;
     padding-top: 24px;
     border-top: 2px dashed var(--color);
 }
 
-.details__media-heading {
+.details-media-heading {
     display: none;
 }
 
-.details__figure {
+.details-figure {
     margin: 0 0 16px;
     border: 2px solid var(--color);
     border-radius: 8px;
@@ -124,7 +124,7 @@
     transform: rotate(1deg);
 }
 
-.details__image {
+.details-image {
     display: block;
     width: 100%;
     height: auto;

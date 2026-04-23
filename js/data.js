@@ -14,19 +14,19 @@ const PROJECTS = {
         ],
         sections: [{
             heading: 'V2 Dual Daughter QFN Board',
-            body: 'In progress...\nA board housing the team’s Analog (SAR ADC) and Digital 2025 tapeouts (QFN package), allowing for communication between the two.\nIncludes a multi-stage amplifier and fully differential amplifier for analog input signals.',
+            body: 'Testing in progress...\nA board housing the team’s Analog (SAR ADC) and Digital 2025 tapeouts (QFN package), allowing for communication between the two.\nIncludes a multi-stage amplifier and fully differential amplifier for analog input signals.',
             bullets: ['Link: https://github.com/joannec34/pcbs', 'Skills: Altium, LTspice, Soldering',]
         }]
     },
     'hw_tiny': {
         title: 'TEENY TPU TINY TAPEOUT SKY26a',
         images: [
-            { src: 'images/teenytpu.png', alt: 'Teeny TPU Tiny Tapeout SKY26a', fit: 'cover' }
+            { src: 'images/hardware/teenytpu.png', alt: 'Teeny TPU Tiny Tapeout SKY26a', fit: 'cover' }
         ],
         sections: [{
             heading: 'Teeny TPU Tiny Tapeout SKY26a',
             body: '2x2 INT8 systolic array TPU with SPI memory interface.',
-            bullets: ['Link: https://github.com/joannec34/teenytpu', 'Skills: Verilog, Git, OpenROAD, HLS'],
+            bullets: ['Link: https://github.com/joannec34/teenytpu', 'Skills: Verilog, Git, OpenLane, HLS'],
         }]
     },
     'hw_stm32': {

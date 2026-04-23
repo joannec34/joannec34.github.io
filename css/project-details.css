@@ -13,7 +13,7 @@
     display: none !important;
 }
 
-.project-popup__backdrop {
+.project-popup-backdrop {
     position: absolute;
     inset: 0;
     background: rgba(242, 240, 235, 0.85);
@@ -21,7 +21,7 @@
     cursor: pointer;
 }
 
-.project-popup__panel {
+.project-popup-panel {
     position: relative;
     z-index: 1;
     width: min(700px, 100%);
@@ -35,7 +35,7 @@
     overflow: hidden;
 }
 
-.project-popup__header {
+.project-popup-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,14 +44,14 @@
     background: var(--bg-color);
 }
 
-.project-popup__title {
+.project-popup-title {
     font-family: var(--font-header);
     font-size: 2rem;
     margin: 0;
     color: var(--text-dark);
 }
 
-.project-popup__close {
+.project-popup-close {
     background: none;
     border: 2px solid var(--border-color);
     border-radius: 50%;
@@ -67,18 +67,18 @@
     transition: background 0.2s;
 }
 
-.project-popup__close:hover {
+.project-popup-close:hover {
     background: var(--accent-pink);
 }
 
-.project-popup__body {
+.project-popup-body {
     padding: 32px;
     overflow-y: auto;
     font-size: 1.1rem;
     line-height: 1.8;
 }
 
-.project-popup__body h3 {
+.project-popup-body h3 {
     font-family: var(--font-body);
     font-size: 1.3rem;
     margin: 24px 0 12px;
@@ -89,30 +89,30 @@
     transform: rotate(-1deg);
 }
 
-.project-popup__body h3:first-child {
+.project-popup-body h3:first-child {
     margin-top: 0;
 }
 
-.project-popup__body p {
+.project-popup-body p {
     margin: 0 0 16px;
 }
 
-.project-popup__bullet-list {
+.project-popup-bullet-list {
     margin: 0 0 20px;
     padding-left: 24px;
 }
 
-.project-popup__media {
+.project-popup-media {
     margin-top: 32px;
     padding-top: 24px;
     border-top: 2px dashed #E6E4DD;
 }
 
-.project-popup__media-heading {
+.project-popup-media-heading {
     display: none;
 }
 
-.project-popup__figure {
+.project-popup-figure {
     margin: 0 0 16px;
     border: 2px solid var(--border-color);
     border-radius: 8px;
@@ -121,7 +121,7 @@
     transform: rotate(1deg);
 }
 
-.project-popup__image {
+.project-popup-image {
     display: block;
     width: 100%;
     height: auto;

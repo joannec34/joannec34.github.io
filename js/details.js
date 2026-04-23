@@ -10,7 +10,7 @@ function opendetails(projectId) {
 
     details.hidden = false;
     document.body.style.overflow = 'hidden'; // prevent bg scrolling
-    details.querySelector('.details__close')?.focus();
+    details.querySelector('.details-close')?.focus();
 }
 
 function closedetails() {

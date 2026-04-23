@@ -14,21 +14,41 @@
 
     /* nav */
     .site-nav {
-        gap: 12px;
-        font-size: 1.1rem;
-        flex-wrap: wrap;
+        display: inline-flex;
+        gap: 10px;
+        font-size: 1.05rem;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        overflow-x: auto;
+        padding: 0 8px;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .site-nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    .site-nav > * {
+        flex: 0 0 auto;
     }
 
     .theme-toggle {
-        width: 28px;
-        height: 28px;
+        min-width: 32px;
+        width: 32px;
+        height: 32px;
+        flex-shrink: 0;
     }
     .theme-toggle img {
         width: 14px;
         height: 14px;
     }
 
-    .details__panel {
+    .details-panel {
         width: 100%;
         max-height: 90vh;
     }
@@ -36,7 +56,7 @@
 
 @media (max-width: 600px) {
     /* home page, stack vertically on mobile */
-    .home-grid {
+    .home {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto;
         justify-items: center;
@@ -52,36 +72,36 @@
         padding: 20px 12px;
     }
 
-    .home-grid__hw {
+    .home-hw {
         grid-column: 1;
         grid-row: 1;
         justify-self: center;
         padding-right: 0;
     }
 
-    .home-grid__title {
+    .home-name {
         grid-column: 1;
         grid-row: 2;
         font-size: clamp(2rem, 10vw, 3rem);
     }
 
-    .home-grid__art {
+    .home-art {
         grid-column: 1;
         grid-row: 3;
         justify-self: center;
         padding-left: 0;
     }
 
-    .home-grid__img--hw,
-    .home-grid__img--art {
+    .home-asset-hw,
+    .home-asset-art {
         width: 60vw;
         max-width: 280px;
         transform: rotate(0deg);
     }
 
     /* hide decorative elements on small screens */
-    .home-grid__star,
-    .home-grid__deco {
+    .home-star,
+    .home-decor {
         display: none;
     }
 
